@@ -11,7 +11,7 @@
 
 ----------
 
-*Stuff I might eventually add, given the chance
+*stuff I might eventually add, given the chance
 
 (1) implementing different kinds of path-finding algorithms for the start-node (Diekstra, DFA, BFA)
 (2) implement walls which can be added, and tweaking the MIDDLE node's update method to account for obstacles in movement
