@@ -1,5 +1,4 @@
-#to create an additional middle and end node class object, and add states and methods to allow for immediate type checking for found/unfound state of each coordinate
-#for all startnode, middlenode, and endndde, to add to a dictionary at the end of each iteration to check for updates
+#for all startnode, middlenode, and endnode, to add their coordinates to a dictionary at the end of each iteration to allow for the print function to print out said nodes 
 
 class start_node:
 
@@ -7,9 +6,12 @@ class start_node:
         print ("Starting node is instantiated")
         self.location = location
 
-#TO implement the A-STAR path-finding alogorithm
+#TO implement the A-STAR path-finding algorithm
     def search_algo (self, end_node_location):
         self.searched_squares = []
+        if self.location not in self.searched_squares:
+            self.searchedsqares.append(self.location)
+
 
 class middle_node:
 

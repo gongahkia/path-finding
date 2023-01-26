@@ -1,5 +1,5 @@
 #(1) function to create a dictionary based on coordinate values 
-#*takes in a template dictionary of only non space values as arguments (format of eg. startnode = [10,10]) and returns the coordinate dictionary
+#*takes in a template dictionary of only non-space values as arguments (format of eg. startnode = [10,10]) and returns the coordinate dictionary
 #types of spaces == startnode, middlenode, endnode, empty spaces
 
 def create_dict (**tank_dictionary):
