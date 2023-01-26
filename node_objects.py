@@ -6,11 +6,19 @@ class start_node:
         print ("Starting node is instantiated")
         self.location = location
 
-#TO implement the A-STAR path-finding algorithm
-    def search_algo (self, end_node_location):
+#TO implement the A-STAR path-finding algorithm by following instructions in line 12
+    def search_algo (self):
         self.searched_squares = []
+        #repeat the below sequence for every instance of the searching for next available square, this search_algo method will check whether all out of all 4 surrounding squares for each square coordinate in the searched_squares [list], any are not in the list. For those not in the list, they will be appended to the list, and a check will be run in a seperate method to determine if the end node has been reached (end node is in searched_squares list)
         if self.location not in self.searched_squares:
-            self.searchedsqares.append(self.location)
+            self.searched_squares.append(self.location)
+
+    #this method is constantly run with a while loop, checking "while end_found_check == False:", to run the search_algo method
+    def end_found_check (self, end_node_location):
+        if end_node_location in self.searched_squares:
+            print("End found. Path-finding algorithm halted.")
+            return True
+        return False
 
 
 class middle_node:
