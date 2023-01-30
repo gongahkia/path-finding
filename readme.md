@@ -20,7 +20,7 @@ This program comprises two parts, which I will be implementing in Python.
 4. optimising the code to allow certain long-winded functions to run much faster/ not at all
 5. using django/ external python libraries to bring visualisation to a more user-friendly web interface 
 
-!(https://external-preview.redd.it/g76hkr15wV_QIcpiHJKcoXOcFus-_jsKIQH1CbW7MFs.jpg?auto=webp&s=ce22bf239b5d70797f348b8987cc96297272d997)
+![](https://external-preview.redd.it/g76hkr15wV_QIcpiHJKcoXOcFus-_jsKIQH1CbW7MFs.jpg?auto=webp&s=ce22bf239b5d70797f348b8987cc96297272d997)
 ----------
 
 Heavy inspiration taken from Clement Mihailescu's [path-finding visualiser](https://clementmihailescu.github.io/Pathfinding-Visualizer/) 
