@@ -17,7 +17,6 @@ class start_node:
             right_1 = coordinate[0]+1
             up_1 = coordinate[1]+1
             down_1 = coordinate[1]-1
-        #implemented check to account for whether desired searched coordinate is even within allocated range
             if left_1 >= 1:
                 if [left_1, coordinate[1]] not in self.searched_squares:
                     self.searched_squares.append([left_1, coordinate[1]])
@@ -81,8 +80,6 @@ class end_node:
 #break condition for while end_check == False: end_check algorithm 
 #this END_CHECK is different from the starting node's END_FOUND_CHECK in that this end_check simply checks for when the shortest path has been arrived at, whereas the starting node's end_found_check checks for whether the end_coordinate has even been found by the path_finding greedy swarm algorithm
     def end_check (self, middle_node_location):
-        if self.location in middle_node_location:
-            print ("End reached")
-            return True
+        return (self.location in middle_node_location)
 
 
