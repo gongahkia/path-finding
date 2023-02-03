@@ -1,8 +1,9 @@
 # Path-finding Algorithm:
 
-##Note:
+## Note:
 This repo has been archived till I find the motivation to continue working on this project.
 
+![](https://media.istockphoto.com/id/916159418/photo/cute-kitten-portrait-british-shorthair-cat.jpg?s=612x612&w=0&k=20&c=Fxeq0syWLxQ_iZgxe2rSy-1l-tQxtDVGkE-0N02gF98=)
 ----------
 
 This program comprises two parts, which I will be implementing in Python.
