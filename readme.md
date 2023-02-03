@@ -1,5 +1,10 @@
 # Path-finding Algorithm:
 
+##Note:
+This repo has been archived till I find the motivation to continue working on this project.
+
+----------
+
 This program comprises two parts, which I will be implementing in Python.
 
 ## (1) `node_objects.py`
